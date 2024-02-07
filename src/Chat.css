@@ -1,0 +1,93 @@
+/* Chat.css */
+
+.chat-body {
+  background: linear-gradient(135deg, #ffffff, #ffffff); /* Gradient background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-image: url(./Chat.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.chat-container {
+  background-color: #ffffff; /* Light gray background color */
+  padding: 20px;
+  border-radius: 8px;
+  width: 35%;
+  height: 90%;
+  margin-left: 60%;
+}
+
+.message-container {
+  height: 300px;
+  box-shadow:
+  -14.3px -14.3px 5.3px rgba(0, 0, 0, 0.028),
+  -28.3px -28.3px 17.9px rgba(0, 0, 0, 0.042),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+  overflow-y: scroll;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 80%;
+}
+
+.message-wrapper {
+  background-color: #beb3b3; /* Blue box color */
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: block; /* Display as a block to ensure each message is on a new line */
+}
+
+.message-text {
+  color: #000; /* Black text color */
+}
+
+.input-container {
+  margin-top: 10px;
+}
+
+.message-input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.send-button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #3498db; /* Blue button color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 4px;
+}
+
+.send-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Add these styles to your existing CSS or replace your existing styles */
+.bot-switch-button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.bot-switch-friend1 {
+  background-color: #3498db; /* Blue color */
+  color: #fff; /* White color */
+}
+
+.bot-switch-friend2 {
+  background-color: #2ecc71; /* Green color */
+  color: #fff; /* White color */
+}
+
+/* Add more styles for additional friends if needed */
